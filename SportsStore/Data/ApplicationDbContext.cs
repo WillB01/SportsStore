@@ -13,5 +13,6 @@ namespace SportsStore.Data
             : base(options) { }
 
         public DbSet<Product> Products { get; set; }
+        public object Migrate { get; internal set; }
     }
 }
